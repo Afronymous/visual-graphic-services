@@ -2,152 +2,274 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>KASTUDIOPRODUCTION — Design, Video & 3D</title>
-<meta name="description" content="KASTUDIOPRODUCTION — graphic design, video editing and upcoming 3D printing for brands, businesses, events and social media.">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>KASTUDIOPRODUCTION — Video Editing, Graphic Design & 3D</title>
+<meta name="description" content="KASTUDIOPRODUCTION edits videos and designs graphics for brands, events, schools and small businesses in Malaysia. Montages, wedding films, corporate videos, motion graphics, posters, menus and logos. 3D printing coming soon.">
+<meta name="theme-color" content="#161616">
+<meta property="og:title" content="KASTUDIOPRODUCTION — We cut. We design. We make it move.">
+<meta property="og:description" content="Video editing and graphic design studio. 70+ video projects, 100+ design jobs. Order on WhatsApp or Shopee.">
+<meta property="og:image" content="assets/reel/asia-pacific.jpg">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/logo-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="loader"><img src="assets/logo-mark.png" alt=""><span>DESIGN · EDIT · DELIVER</span></div>
+
+<!-- Intro: the K mark draws itself, then wipes away -->
+<div class="intro" aria-hidden="true">
+  <svg class="intro-k" viewBox="520 300 800 940">
+    <path class="k1" d="M549 798 L664 914 L1294 322 L1294 478 L755 960 L1035 1218 L871 1218 L664 1025 L664 1218 L549 1218 Z"/>
+    <path class="k2" d="M840 957 L1293 567 L1293 1218 L1181 1218 L1181 826 L924 1038 Z"/>
+  </svg>
+  <div class="intro-word">KASTUDIO<span>PRODUCTION</span></div>
+</div>
 
 <header class="nav">
-  <a class="brand" href="#top" aria-label="KASTUDIOPRODUCTION home"><img src="assets/logo-mark.png" alt=""><span>KASTUDIO<span>PRODUCTION</span></span></a>
-  <nav id="site-navigation" aria-label="Main navigation"><a href="#work">Work</a><a href="#services">Services</a><a href="#process">Process</a><a href="#contact">Contact</a></nav>
-  <a class="nav-cta" href="https://wa.me/601125145629" target="_blank" rel="noopener noreferrer">Start a project ↗</a>
-  <button class="menu" type="button" aria-label="Open menu" aria-controls="site-navigation" aria-expanded="false">☰</button>
+  <a class="brand" href="#top" aria-label="KASTUDIOPRODUCTION home"><img src="assets/logo-192.png" alt="" width="40" height="40"><span>KASTUDIO<small>PRODUCTION</small></span></a>
+  <nav id="menu" aria-label="Main">
+    <a href="#reel">Video</a><a href="#design">Design</a><a href="#services">Services</a><a href="#lab">3D Lab</a><a href="#order">Order</a>
+  </nav>
+  <a class="nav-cta" href="#order">Start a project</a>
+  <button class="burger" type="button" aria-label="Open menu" aria-controls="menu" aria-expanded="false"><i></i><i></i></button>
 </header>
 
 <main id="top">
-  <section class="hero">
-    <div class="hero-copy reveal">
-      <div class="eyebrow"><i></i> KOTA BHARU · MALAYSIA · REMOTE</div>
-      <h1>Ideas that<br><em>look</em> like<br>your brand.</h1>
-      <p>Graphic design and video editing for businesses that want to look sharp, communicate clearly and stay remembered.</p>
-      <div class="hero-actions"><a class="btn dark" href="#work">Explore our work <span>↓</span></a><a class="text-link" href="#contact">Tell us what you need →</a></div>
+
+  <!-- HERO: a live showreel cut from real client work -->
+  <section class="hero" aria-label="Showreel">
+    <div class="hero-stage" aria-hidden="true">
+      <video class="hero-vid is-on" muted playsinline preload="auto"></video>
+      <video class="hero-vid" muted playsinline preload="auto"></video>
+      <div class="hero-shade"></div>
+      <div class="grain"></div>
     </div>
-    <div class="hero-art reveal">
-      <div class="hero-card">
-        <img src="assets/portfolio/clientart-coloring.png" alt="Illustrated client artwork of a yacht at sunset">
-        <div class="card-caption"><span>FEATURED CLIENT WORK</span><b>Graphic Design</b></div>
+    <div class="viewfinder" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+    <div class="hud hud-tl" aria-hidden="true"><span class="rec"></span>REC <b class="tc">00:00:00:00</b></div>
+    <div class="hud hud-tr" aria-hidden="true">4K · 25P · <b class="clip-no">01</b>/<b class="clip-total">20</b></div>
+
+    <div class="hero-copy">
+      <p class="kicker">Video editing · Graphic design · 3D printing soon</p>
+      <h1 class="hero-title">
+        <span class="line"><span>We cut.</span></span>
+        <span class="line"><span>We design.</span></span>
+        <span class="line"><span>We make it <br class="m-br"><em class="swap">move</em>.</span></span>
+      </h1>
+      <p class="hero-sub">A small Malaysian studio that turns raw footage and rough ideas into montages, films, posters and brands people actually stop for.</p>
+      <div class="hero-actions">
+        <a class="btn btn-orange" href="#order">Get a quote <span aria-hidden="true">→</span></a>
+        <a class="btn btn-ghost" href="#reel"><span class="play" aria-hidden="true"></span> Watch the work</a>
       </div>
-      <div class="floating f1">100+<small>projects</small></div>
-      <div class="floating f2">DESIGN<br>VIDEO<br>CONTENT</div>
+    </div>
+
+    <div class="now-playing" aria-live="off">
+      <span class="np-label">Now playing</span>
+      <span class="np-title">—</span>
+      <span class="np-cat">—</span>
+      <span class="np-bar"><i></i></span>
     </div>
   </section>
 
-  <section class="marquee" aria-label="Creative disciplines"><div>GRAPHIC DESIGN <b>✦</b> VIDEO EDITING <b>✦</b> SOCIAL CONTENT <b>✦</b> BRANDING <b>✦</b> 3D PRINTING SOON <b>✦</b> GRAPHIC DESIGN <b>✦</b> VIDEO EDITING <b>✦</b></div></section>
-
-  <section class="intro section reveal">
-    <div class="section-tag">01 / THE STUDIO</div>
-    <div>
-      <h2>Small studio.<br><span>Big visual energy.</span></h2>
-      <p>KASTUDIOPRODUCTION is a creative service studio for graphic design, video editing and upcoming 3D-printing work. From a single poster to a complete campaign, we turn raw information into visuals people actually want to look at.</p>
-      <div class="stats"><div><strong>100+</strong><span>Projects completed</span></div><div><strong>03</strong><span>Creative services</span></div><div><strong>01</strong><span>Direct creative partner</span></div></div>
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>Wedding films</span><b>✦</b><span>Event montages</span><b>✦</b><span>Corporate videos</span><b>✦</b><span>Motion graphics</span><b>✦</b><span>Documentaries</span><b>✦</b><span>Posters & flyers</span><b>✦</b><span>Food menus</span><b>✦</b><span>Logos & branding</span><b>✦</b><span>Infographics</span><b>✦</b><span>3D printing — soon</span><b>✦</b>
     </div>
+  </div>
+
+  <!-- NUMBERS -->
+  <section class="numbers">
+    <div class="num"><strong data-count="70">0</strong><span>+</span><p>video projects edited</p></div>
+    <div class="num"><strong data-count="100">0</strong><span>+</span><p>design jobs delivered</p></div>
+    <div class="num"><strong data-count="21">0</strong><p>clips in this reel, all real client work</p></div>
+    <div class="num"><strong>MY</strong><p>Based in Malaysia, working fully online</p></div>
   </section>
 
-  <section id="services" class="services section">
-    <div class="section-tag">02 / SERVICES</div>
-    <div class="service-grid">
-      <article class="service reveal">
-        <span>01</span><h3>Graphic<br>Design</h3>
-        <p>Clear, attention-grabbing visuals built around your message, audience and brand.</p>
-        <ul><li>Posters & flyers</li><li>Banners & bunting</li><li>Social media graphics</li><li>Menus & promotional artwork</li><li>Infographics & corporate materials</li><li>Logo & basic branding</li></ul>
-        <a href="#contact">Get a design quote →</a>
-      </article>
-      <article class="service dark-card reveal">
-        <span>02</span><h3>Video<br>Editing</h3>
-        <p>Polished edits for important moments, campaigns and business communication.</p>
-        <ul><li>Wedding films & highlight reels</li><li>Montage & event recaps</li><li>Presentation & speech edits</li><li>Documentary & short-film edits</li><li>Corporate & project films</li><li>Social video, captions & motion graphics</li></ul>
-        <a href="#contact">Plan a video →</a>
-      </article>
-      <article class="service coming-soon reveal">
-        <div class="service-topline"><span>03</span><b>COMING SOON</b></div>
-        <h3>3D<br>Printing</h3>
-        <p>Product-focused print work is being prepared for the studio's next chapter.</p>
-        <ul><li>Small-format prototypes</li><li>Display pieces & models</li><li>Custom miniatures</li><li>Branded physical concepts</li></ul>
-        <p class="service-note">Launch details and availability will be announced soon.</p>
-        <a href="#contact">Ask about future availability →</a>
-      </article>
-    </div>
-  </section>
-
-  <section id="work" class="work section">
-    <div class="work-head">
-      <div><div class="section-tag">03 / SELECTED WORK</div><h2>Made to be<br><span>noticed.</span></h2></div>
-      <div class="work-actions">
-        <div class="filters" aria-label="Filter portfolio work">
-          <button class="active" type="button" data-filter="all" aria-pressed="true">All</button>
-          <button type="button" data-filter="design" aria-pressed="false">Design</button>
-          <button type="button" data-filter="brand" aria-pressed="false">Branding</button>
-          <button type="button" data-filter="social" aria-pressed="false">Social</button>
-          <button type="button" data-filter="food" aria-pressed="false">Food</button>
-          <button type="button" data-filter="video" aria-pressed="false">Video</button>
+  <!-- VIDEO WALL -->
+  <section id="reel" class="reel section">
+    <div class="sec-head">
+      <div>
+        <p class="tag"><span>01</span> Video editing</p>
+        <h2>Press play on<br><span>our past work.</span></h2>
+      </div>
+      <div class="sec-side">
+        <p>Every tile is a 5-second slice of a finished client edit. Tap one to watch it larger and open the full project.</p>
+        <div class="chips" role="group" aria-label="Filter videos">
+          <button class="on" data-f="all" aria-pressed="true">All</button>
+          <button data-f="events" aria-pressed="false">Montage & events</button>
+          <button data-f="corporate" aria-pressed="false">Corporate & projects</button>
+          <button data-f="motion" aria-pressed="false">Motion & animation</button>
+          <button data-f="docs" aria-pressed="false">Docs & social</button>
         </div>
-        <a class="drive-link portfolio-drive" data-portfolio-link href="https://drive.google.com/drive/folders/1dVZD-b1TKgkEChYndciLGQKipRlaZrg4" target="_blank" rel="noopener noreferrer">View full video portfolio <span aria-hidden="true">↗</span></a>
       </div>
     </div>
+    <div class="wall" id="wall"></div>
+    <a class="archive-link" href="https://drive.google.com/drive/folders/1dVZD-b1TKgkEChYndciLGQKipRlaZrg4" target="_blank" rel="noopener">Browse the full video archive (70+ projects) <span aria-hidden="true">↗</span></a>
+  </section>
 
-    <div class="portfolio-grid">
-      <figure class="project reveal" data-cat="design"><img src="assets/portfolio/flyer-board.webp" alt="A selection of flyer and brochure designs" loading="lazy"><figcaption><small>Graphic Design</small><b>Flyers / Brochures</b></figcaption></figure>
-      <figure class="project reveal" data-cat="food"><img src="assets/portfolio/food-business.webp" alt="Food and beverage menu designs" loading="lazy"><figcaption><small>Food & Beverage</small><b>Menus & Promotions</b></figcaption></figure>
-      <figure class="project wide reveal" data-cat="social"><img src="assets/portfolio/social-media.webp" alt="Social-media campaign graphics" loading="lazy"><figcaption><small>Social Content</small><b>Campaign Graphics</b></figcaption></figure>
-      <figure class="project reveal" data-cat="brand"><img src="assets/portfolio/branding.webp" alt="Brand identity and logo examples" loading="lazy"><figcaption><small>Branding</small><b>Identity & Logo Work</b></figcaption></figure>
-      <figure class="project reveal" data-cat="design"><img src="assets/portfolio/infographics.webp" alt="Infographic design examples" loading="lazy"><figcaption><small>Information Design</small><b>Infographics</b></figcaption></figure>
-      <figure class="project reveal" data-cat="design"><img src="assets/portfolio/events.webp" alt="Event visual design examples" loading="lazy"><figcaption><small>Events</small><b>Event Visuals</b></figcaption></figure>
-      <figure class="project wide reveal" data-cat="social"><img src="assets/portfolio/campaigns.webp" alt="Promotional campaign designs" loading="lazy"><figcaption><small>Campaign</small><b>Promotional Content</b></figcaption></figure>
-      <figure class="project reveal" data-cat="design"><img src="assets/portfolio/corporate-cards.webp" alt="Corporate print materials" loading="lazy"><figcaption><small>Corporate</small><b>Business Materials</b></figcaption></figure>
+  <!-- DESIGN GALLERY -->
+  <section id="design" class="design section">
+    <div class="sec-head">
+      <div>
+        <p class="tag"><span>02</span> Graphic design</p>
+        <h2>Made to be<br><span>noticed.</span></h2>
+      </div>
+      <div class="sec-side">
+        <p>Menus that sell, posters that fill events, logos that stick. A selection from more than a hundred jobs.</p>
+        <div class="chips" role="group" aria-label="Filter designs">
+          <button class="on" data-g="all" aria-pressed="true">All</button>
+          <button data-g="events" aria-pressed="false">Events</button>
+          <button data-g="menus" aria-pressed="false">Food & menus</button>
+          <button data-g="branding" aria-pressed="false">Branding</button>
+          <button data-g="social" aria-pressed="false">Social media</button>
+          <button data-g="posters" aria-pressed="false">Posters</button>
+          <button data-g="infographics" aria-pressed="false">Infographics</button>
+        </div>
+      </div>
+    </div>
+    <div class="masonry" id="masonry"></div>
+  </section>
 
-      <figure class="project project--client wide reveal" data-cat="design"><img src="assets/portfolio/clientart-coloring.png" alt="Illustrated client artwork of a yacht at sunset" loading="lazy"><figcaption><small>Illustration</small><b>Custom Client Artwork</b></figcaption></figure>
-      <figure class="project project--client reveal" data-cat="food"><img src="assets/portfolio/ayo-coffee-event.png" alt="Ayo Coffee event promotional poster" loading="lazy"><figcaption><small>Food & Beverage</small><b>Event Promotion</b></figcaption></figure>
-      <figure class="project project--client reveal" data-cat="design"><img src="assets/portfolio/healthy-bunting.png" alt="Health campaign bunting design" loading="lazy"><figcaption><small>Campaign Design</small><b>Health Awareness Bunting</b></figcaption></figure>
-
-      <a class="project project-link project--video wide reveal" data-cat="video" href="https://drive.google.com/file/d/1-hHrCiKZ0LnPCQeo8ifmsew3xCpxESPq/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" aria-label="View wedding film sample on Google Drive"><img src="assets/portfolio/video-wedding.jpg" alt="Frame from a wedding film" loading="lazy"><span class="play-badge" aria-hidden="true">▶</span><span class="project-caption"><small>Wedding Film</small><b>Wedding Highlights</b></span></a>
-      <a class="project project-link project--video reveal" data-cat="video" href="https://drive.google.com/file/d/1oH1Nec0AgALbGXyEA6eAwmLVZYlyE0mS/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" aria-label="View montage sample on Google Drive"><img src="assets/portfolio/video-montage.jpg" alt="Frame from a Merdeka event montage" loading="lazy"><span class="play-badge" aria-hidden="true">▶</span><span class="project-caption"><small>Montage</small><b>Event Recap</b></span></a>
-      <a class="project project-link project--video reveal" data-cat="video" href="https://drive.google.com/file/d/1ROi3fNfVVfsavKr_dNdOhACKSSFmn-sO/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" aria-label="View project film sample on Google Drive"><img src="assets/portfolio/video-corporate.jpg" alt="Frame from a project film" loading="lazy"><span class="play-badge" aria-hidden="true">▶</span><span class="project-caption"><small>Project Film</small><b>Corporate / Educational Video</b></span></a>
-      <a class="project project-link project--video wide reveal" data-cat="video" href="https://drive.google.com/file/d/1TTNi7Ctg1TZYsMmvenWgzC_DDwPj802k/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" aria-label="View presentation video sample on Google Drive"><img src="assets/portfolio/video-presentation.jpg" alt="Frame from a presentation video" loading="lazy"><span class="play-badge" aria-hidden="true">▶</span><span class="project-caption"><small>Presentation Video</small><b>Speech & Presentation Edit</b></span></a>
-      <a class="project project-link project--video reveal" data-cat="video" href="https://drive.google.com/file/d/1VhosSfERCrrE3L1QEMjd1ZlaR8_zDG93/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" aria-label="View motion graphics sample on Google Drive"><img src="assets/portfolio/video-animation.jpg" alt="Frame from an animated countdown" loading="lazy"><span class="play-badge" aria-hidden="true">▶</span><span class="project-caption"><small>Motion Graphics</small><b>Animation & Gimmick Video</b></span></a>
+  <!-- SERVICES -->
+  <section id="services" class="services section">
+    <p class="tag"><span>03</span> Services</p>
+    <h2>What we can<br><span>make for you.</span></h2>
+    <div class="svc-grid">
+      <article class="svc">
+        <div class="svc-media"><video muted loop playsinline preload="none" data-src="assets/reel/wedding.mp4" poster="assets/reel/wedding.jpg"></video></div>
+        <div class="svc-body">
+          <p class="svc-no">01</p>
+          <h3>Video editing</h3>
+          <ul>
+            <li>Wedding & event highlights</li><li>Montages, farewells & retirement tributes</li><li>Corporate, project & presentation videos</li>
+            <li>Documentaries & short films</li><li>Motion graphics & launch gimmicks</li><li>Reels, TikTok & captions</li>
+          </ul>
+          <a class="svc-link" href="#order" data-svc="video editing">Plan my video →</a>
+        </div>
+      </article>
+      <article class="svc">
+        <div class="svc-media svc-media--img"><img src="assets/work/mee-bandung.webp" alt="" loading="lazy"><img src="assets/work/turcomp.webp" alt="" loading="lazy"><img src="assets/work/ayo-coffee.webp" alt="" loading="lazy"></div>
+        <div class="svc-body">
+          <p class="svc-no">02</p>
+          <h3>Graphic design</h3>
+          <ul>
+            <li>Posters, flyers & banners (any size, print-ready)</li><li>Food & drinks menus</li><li>Logos, business cards & stickers</li>
+            <li>Social media posts & covers</li><li>Infographics & organisation charts</li><li>Invitations, certificates & booklets</li>
+          </ul>
+          <a class="svc-link" href="#order" data-svc="graphic design">Get a design quote →</a>
+        </div>
+      </article>
+      <article class="svc svc--soon">
+        <div class="svc-media svc-media--lab"><canvas class="mini-printer" width="480" height="300" aria-hidden="true"></canvas><span class="soon-badge">Coming soon</span></div>
+        <div class="svc-body">
+          <p class="svc-no">03</p>
+          <h3>3D printing</h3>
+          <ul>
+            <li>Custom keychains & name tags</li><li>Desk signs & logo plaques</li><li>Trophies, medals & event souvenirs</li>
+            <li>Product prototypes & display models</li>
+          </ul>
+          <a class="svc-link" href="#lab">See the 3D Lab →</a>
+        </div>
+      </article>
     </div>
   </section>
 
-  <section class="showcase">
-    <div class="showcase-image"><img src="assets/portfolio-archive.png" alt="KASTUDIO portfolio archive" loading="lazy"></div>
-    <div class="showcase-copy">
-      <div class="section-tag">THE VIDEO ARCHIVE</div>
-      <h2>More stories.<br><span>More motion.</span></h2>
-      <p>Wedding highlights, event montages, presentations, corporate films, motion graphics and more. Browse the full view-only video portfolio when you want to see the wider range.</p>
-      <a class="btn light portfolio-drive" data-portfolio-link href="https://drive.google.com/drive/folders/1dVZD-b1TKgkEChYndciLGQKipRlaZrg4" target="_blank" rel="noopener noreferrer">View full video portfolio ↗</a>
+  <!-- 3D LAB -->
+  <section id="lab" class="lab">
+    <div class="lab-copy">
+      <p class="tag tag--dark"><span>04</span> KASTUDIO 3D Lab</p>
+      <h2>Next up:<br>things you can<br><em>hold.</em></h2>
+      <p>We design in 2D and 3D already. Soon we'll print it too: your logo as a desk sign, your event as a medal, your idea as a prototype. Designed and printed in one place.</p>
+      <div class="lab-meter">
+        <div class="lab-meter-top"><span>Test print</span><b class="lab-pct">0%</b></div>
+        <div class="lab-track"><i></i></div>
+        <p class="lab-note">Layer <b class="lab-layer">0</b> / 120 · PLA · 0.2 mm</p>
+      </div>
+      <a class="btn btn-dark" target="_blank" rel="noopener" data-wa="Hi KASTUDIO, please let me know when your 3D printing service launches. I'm interested in: ">Notify me when it launches <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="lab-stage">
+      <canvas id="printer" width="900" height="900" aria-label="Animation of a 3D printer printing the KASTUDIO K logo layer by layer" role="img"></canvas>
     </div>
   </section>
 
-  <section id="process" class="process section">
-    <div class="section-tag">04 / PROCESS</div>
-    <div class="process-top"><h2>Simple for you.<br><span>Precise behind the scenes.</span></h2><p>You bring the objective. We handle the visual thinking, production and polish.</p></div>
-    <div class="steps">
-      <div><b>01</b><h3>Brief</h3><p>Tell us what you need, your deadline, size, references and where the final artwork will be used.</p></div>
-      <div><b>02</b><h3>Direction</h3><p>We translate the brief into a visual direction, layout or editing approach before production.</p></div>
-      <div><b>03</b><h3>Production</h3><p>Designing, editing, refining and preparing the work for its final platform or print format.</p></div>
-      <div><b>04</b><h3>Deliver</h3><p>Final files are organised and exported in the formats you actually need.</p></div>
-    </div>
+  <!-- PROCESS -->
+  <section class="process section">
+    <p class="tag"><span>05</span> How it works</p>
+    <h2>Simple for you.<br><span>Precise behind the scenes.</span></h2>
+    <ol class="steps">
+      <li><b>01</b><h3>Brief</h3><p>Send your footage or info, size, deadline and a reference or two you like.</p></li>
+      <li><b>02</b><h3>Direction</h3><p>We agree on the look, music and structure before we start cutting or designing.</p></li>
+      <li><b>03</b><h3>Draft</h3><p>You get a draft to review. Tell us what to change and we refine it.</p></li>
+      <li><b>04</b><h3>Deliver</h3><p>Final files in the formats you need: MP4 for socials, print-ready PDF, PNG and more.</p></li>
+    </ol>
   </section>
 
-  <section class="cta section" id="contact">
-    <div class="cta-mark"><img src="assets/logo-mark.png" alt=""></div>
-    <div><div class="section-tag">05 / START A PROJECT</div><h2>Got a brief?<br><span>Let's make it look good.</span></h2><p>Send the basics. We’ll continue the conversation on WhatsApp and work out the best package for your project.</p><div class="contact-actions"><a class="btn dark" href="https://wa.me/601125145629?text=Hi%20KASTUDIOPRODUCTION%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer">WhatsApp 011-25145629 ↗</a><a class="text-link" href="mailto:hello@kastudioproduction.com">Email the studio →</a></div></div>
+  <!-- ORDER -->
+  <section id="order" class="order section">
+    <p class="tag"><span>06</span> Start a project</p>
+    <h2>Got a brief?<br><span>Let's make it look good.</span></h2>
+    <div class="order-grid">
+      <form class="brief" id="brief">
+        <h3>Quick brief → WhatsApp</h3>
+        <p>Fill this in and we'll open WhatsApp with your message ready to send.</p>
+        <fieldset>
+          <legend>What do you need?</legend>
+          <div class="pick">
+            <label><input type="radio" name="need" value="Video editing" checked><span>Video editing</span></label>
+            <label><input type="radio" name="need" value="Graphic design"><span>Graphic design</span></label>
+            <label><input type="radio" name="need" value="Video + design"><span>Both</span></label>
+            <label><input type="radio" name="need" value="3D printing (when available)"><span>3D printing</span></label>
+          </div>
+        </fieldset>
+        <label class="field"><span>Your name</span><input name="name" autocomplete="name" placeholder="e.g. Aisyah"></label>
+        <label class="field"><span>Tell us about it</span><textarea name="about" rows="3" placeholder="e.g. 3-minute montage for our family day, 200 photos + 10 clips"></textarea></label>
+        <label class="field"><span>Deadline</span><input name="when" placeholder="e.g. next Friday"></label>
+        <button class="btn btn-orange" type="submit">Send on WhatsApp <span aria-hidden="true">→</span></button>
+      </form>
+      <div class="order-side">
+        <a class="order-card order-card--shopee" href="https://shopee.com.my/kastudioproduction" target="_blank" rel="noopener">
+          <span class="oc-top">Prefer to pay safely?</span>
+          <strong>Order on Shopee</strong>
+          <span>Pick a package in our Shopee shop and pay with Shopee's buyer protection. Then send us your files in chat.</span>
+          <span class="oc-go">shopee.com.my/kastudioproduction ↗</span>
+        </a>
+        <a class="order-card" target="_blank" rel="noopener" data-wa="Hi KASTUDIOPRODUCTION, I'd like to discuss a project.">
+          <span class="oc-top">Chat directly</span>
+          <strong>WhatsApp 011-2514 5629</strong>
+          <span>Custom jobs, rush deadlines or questions. We'll reply with a quote.</span>
+          <span class="oc-go">Open WhatsApp ↗</span>
+        </a>
+      </div>
+    </div>
   </section>
 </main>
 
-<footer>
-  <div class="footer-brand"><img src="assets/logo-mark.png" alt=""><strong>KASTUDIOPRODUCTION</strong><span>Digital design, video & upcoming 3D printing</span></div>
-  <div class="footer-links"><a href="#work">Work</a><a href="#services">Services</a><a class="portfolio-drive" data-portfolio-link href="https://drive.google.com/drive/folders/1dVZD-b1TKgkEChYndciLGQKipRlaZrg4" target="_blank" rel="noopener noreferrer">Video portfolio</a><a href="#contact">Contact</a></div>
-  <div class="footer-note">© 2026 KASTUDIOPRODUCTION<br>011-25145629</div>
+<footer class="foot">
+  <div class="foot-big" aria-hidden="true">KASTUDIO</div>
+  <div class="foot-row">
+    <div class="foot-brand"><img src="assets/logo-192.png" alt="" width="44" height="44"><div><strong>KASTUDIOPRODUCTION</strong><span>Video editing · Graphic design · 3D printing soon</span></div></div>
+    <nav class="foot-links" aria-label="Footer"><a href="#reel">Video</a><a href="#design">Design</a><a href="#lab">3D Lab</a><a href="https://shopee.com.my/kastudioproduction" target="_blank" rel="noopener">Shopee</a><a target="_blank" rel="noopener" data-wa="Hi KASTUDIOPRODUCTION!">WhatsApp</a></nav>
+    <p class="foot-note">© <span class="yr">2026</span> KASTUDIOPRODUCTION</p>
+  </div>
 </footer>
 
-<script src="site-config.js"></script>
-<script src="script.js"></script>
+<!-- Lightbox (shared by video wall and design gallery) -->
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Project viewer" hidden>
+  <button class="lb-close" type="button" aria-label="Close">✕</button>
+  <button class="lb-nav lb-prev" type="button" aria-label="Previous">←</button>
+  <button class="lb-nav lb-next" type="button" aria-label="Next">→</button>
+  <figure class="lb-fig">
+    <div class="lb-media"></div>
+    <figcaption><small class="lb-cat"></small><b class="lb-title"></b><a class="lb-full" target="_blank" rel="noopener">Watch the full project ↗</a></figcaption>
+  </figure>
+</div>
+
+<script src="config.js"></script>
+<script src="data.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="app.js"></script>
 </body>
 </html>

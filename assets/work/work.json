@@ -1,0 +1,240 @@
+[
+ {
+  "id": "yacht-art",
+  "title": "Custom Yacht Illustration",
+  "cat": "branding",
+  "w": 1400,
+  "h": 1120
+ },
+ {
+  "id": "ayo-coffee",
+  "title": "Ayo Coffee \u2014 Free Coffee Event",
+  "cat": "events",
+  "w": 1120,
+  "h": 1400
+ },
+ {
+  "id": "mee-bandung",
+  "title": "Mee Bandung Wak Mail Menu",
+  "cat": "menus",
+  "w": 904,
+  "h": 1280
+ },
+ {
+  "id": "waffle-menu",
+  "title": "Sue Station Waffle Menu",
+  "cat": "menus",
+  "w": 904,
+  "h": 1280
+ },
+ {
+  "id": "drinks-menu",
+  "title": "Sue Station Drinks Menu",
+  "cat": "menus",
+  "w": 904,
+  "h": 1280
+ },
+ {
+  "id": "satay",
+  "title": "Satay Cik Dyie Banner",
+  "cat": "menus",
+  "w": 1280,
+  "h": 853
+ },
+ {
+  "id": "cendol",
+  "title": "Cendol Gedik Business Card",
+  "cat": "branding",
+  "w": 1004,
+  "h": 590
+ },
+ {
+  "id": "turcomp",
+  "title": "Turcomp 2023 Logo",
+  "cat": "branding",
+  "w": 1400,
+  "h": 1400
+ },
+ {
+  "id": "mna-homes",
+  "title": "MNA Homes Private Pool Logo",
+  "cat": "branding",
+  "w": 1400,
+  "h": 1400
+ },
+ {
+  "id": "dapoq",
+  "title": "Dapoq Merecikz Sticker",
+  "cat": "branding",
+  "w": 1080,
+  "h": 1080
+ },
+ {
+  "id": "medal",
+  "title": "OMC Platinum Medal",
+  "cat": "branding",
+  "w": 922,
+  "h": 745
+ },
+ {
+  "id": "thank-you",
+  "title": "Thank-You Card",
+  "cat": "branding",
+  "w": 1152,
+  "h": 1280
+ },
+ {
+  "id": "mulqeen",
+  "title": "Mulqeen Technology Cover",
+  "cat": "social",
+  "w": 1400,
+  "h": 789
+ },
+ {
+  "id": "poco",
+  "title": "POCO X4 Pro Promo",
+  "cat": "social",
+  "w": 1400,
+  "h": 1400
+ },
+ {
+  "id": "zura",
+  "title": "Zura CNY Product Promo",
+  "cat": "social",
+  "w": 1080,
+  "h": 1080
+ },
+ {
+  "id": "karaoke",
+  "title": "Jom Karaoke \u2014 Bigo Live",
+  "cat": "social",
+  "w": 1080,
+  "h": 1080
+ },
+ {
+  "id": "zumba",
+  "title": "Merdeka Zumba",
+  "cat": "events",
+  "w": 1080,
+  "h": 1350
+ },
+ {
+  "id": "chess",
+  "title": "Chess Championship",
+  "cat": "events",
+  "w": 1080,
+  "h": 1080
+ },
+ {
+  "id": "football",
+  "title": "Friendly Football Tour",
+  "cat": "events",
+  "w": 1280,
+  "h": 1280
+ },
+ {
+  "id": "golf",
+  "title": "Golf Game Day",
+  "cat": "events",
+  "w": 1280,
+  "h": 1280
+ },
+ {
+  "id": "ava-intake",
+  "title": "AVA Multimedia New Intake",
+  "cat": "events",
+  "w": 1280,
+  "h": 853
+ },
+ {
+  "id": "ava-orientation",
+  "title": "AVA Orientation",
+  "cat": "events",
+  "w": 1280,
+  "h": 720
+ },
+ {
+  "id": "memancing",
+  "title": "Fishing Festival Poster",
+  "cat": "events",
+  "w": 990,
+  "h": 1400
+ },
+ {
+  "id": "treasure",
+  "title": "Treasure Hunt",
+  "cat": "events",
+  "w": 1400,
+  "h": 969
+ },
+ {
+  "id": "trip",
+  "title": "5D4N Holiday Package",
+  "cat": "posters",
+  "w": 1080,
+  "h": 1080
+ },
+ {
+  "id": "asb",
+  "title": "ASB Financing Flyer",
+  "cat": "posters",
+  "w": 1280,
+  "h": 1280
+ },
+ {
+  "id": "tuition",
+  "title": "Home Tuition Flyer",
+  "cat": "posters",
+  "w": 960,
+  "h": 1280
+ },
+ {
+  "id": "internship",
+  "title": "Paid Internship Poster",
+  "cat": "posters",
+  "w": 400,
+  "h": 566
+ },
+ {
+  "id": "book",
+  "title": "Book Cover",
+  "cat": "posters",
+  "w": 853,
+  "h": 1280
+ },
+ {
+  "id": "israk",
+  "title": "Israk Mikraj Greeting",
+  "cat": "social",
+  "w": 1080,
+  "h": 1080
+ },
+ {
+  "id": "nuzul",
+  "title": "Nuzul Quran Greeting",
+  "cat": "social",
+  "w": 1080,
+  "h": 1080
+ },
+ {
+  "id": "usb",
+  "title": "Beware of USB Drives",
+  "cat": "infographics",
+  "w": 905,
+  "h": 1280
+ },
+ {
+  "id": "jata",
+  "title": "Jata Negara Infographic",
+  "cat": "infographics",
+  "w": 1080,
+  "h": 1080
+ },
+ {
+  "id": "healthy",
+  "title": "Health Awareness Bunting",
+  "cat": "infographics",
+  "w": 847,
+  "h": 1400
+ }
+]
