@@ -15,7 +15,7 @@
   /* ---------- WhatsApp links ---------- */
   $$('[data-wa]').forEach(a => a.href = wa(a.dataset.wa));
   $$('.svc-link[data-svc]').forEach(a => a.addEventListener('click', () => {
-    const v = a.dataset.svc === 'graphic design' ? 'Graphic design' : 'Video editing';
+    const v = { 'graphic design': 'Graphic design', 'AI video / animation': 'AI video / animation' }[a.dataset.svc] || 'Video editing';
     const r = $(`.pick input[value="${v}"]`); if (r) r.checked = true;
   }));
   $('.yr').textContent = new Date().getFullYear();
